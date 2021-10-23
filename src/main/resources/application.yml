@@ -5,6 +5,11 @@ spring:
   application:
     name: movie-service
 
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+
 eureka:
   client:
     register-with-eureka: true
@@ -16,4 +21,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: info, health, refresh, beans
+        include: info, health, refresh, beans, busrefresh
