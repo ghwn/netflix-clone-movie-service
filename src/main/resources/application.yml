@@ -17,3 +17,6 @@ management:
     web:
       exposure:
         include: info, health, refresh, beans, busrefresh
+
+video:
+  directory: videos
