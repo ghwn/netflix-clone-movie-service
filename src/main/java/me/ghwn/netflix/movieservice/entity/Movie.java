@@ -27,7 +27,7 @@ public class Movie extends TimestampedEntity {
 
     private String title;
 
-    private int releaseYear;
+    private Integer releaseYear;
 
     @ElementCollection(fetch = FetchType.LAZY)
     private Set<String> genres = new HashSet<>();

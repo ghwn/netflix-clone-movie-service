@@ -22,7 +22,7 @@ public class MovieDto {
 
     private String title;
 
-    private int releaseYear;
+    private Integer releaseYear;
 
     private Set<String> genres;
 
